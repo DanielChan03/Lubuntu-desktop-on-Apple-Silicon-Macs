@@ -75,7 +75,8 @@ This guide walks you through:
 - Create username/password
 
 4. Wait for installation to complete
-![Figure](images/fig2.png)
+   
+![Figure](images/fig1.png)
 ---
 
 # 🔁 Step 5: First Boot Setup
@@ -84,7 +85,8 @@ After installation:
 - Restart VM
 - Remove ISO if prompted
 - Log into Ubuntu
-
+  
+![Figure](images/fig2.png)
 ---
 
 # 🚀 Step 6: Convert Ubuntu → Lubuntu
@@ -159,6 +161,12 @@ Run:
 ```bash
 sudo apt remove ubuntu-desktop gnome-shell -y
 sudo apt autoremove -y
+```
+
+Restart kernel:
+
+```bash
+sudo reboot
 ```
 
 # ⚡ Optional: Ultra-Light Setup (Better Performance)
