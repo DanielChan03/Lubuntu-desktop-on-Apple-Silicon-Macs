@@ -1,4 +1,4 @@
-# 🧩 Full Guide: Install Lubuntu on Mac (Apple Silicon/ Intel) using UTM
+# 🧩 User Guide: Install Lubuntu on Mac (Apple Silicon/ Intel) using UTM
 
 This guide walks you through:
 1. Installing UTM
