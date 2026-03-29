@@ -58,8 +58,7 @@ This guide walks you through:
 - Memory: **2-4GB (2048-4096 MB)**
 - CPU: **2–4 cores**
 - Storage: **20GB+**
-- Display:
-- Use **VirtIO-GPU**
+- Display: Use **VirtIO-GPU**
 
 ---
 
