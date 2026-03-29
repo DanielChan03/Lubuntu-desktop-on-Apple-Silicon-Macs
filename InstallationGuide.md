@@ -120,6 +120,7 @@ After reboot:
 Run:
 
 ```bash
+cat /etc/os-release
 echo $XDG_CURRENT_DESKTOP
 ```
 
