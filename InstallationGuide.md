@@ -32,8 +32,7 @@ This guide walks you through:
    https://ubuntu.com/download/desktop
 2. Download the latest Ubuntu Desktop ISO  
    Example:
-   Ubuntu 25.10 (ARM 64-bit architecture) for Apple Silicon Mac
-
+   - Ubuntu 25.10 (ARM 64-bit architecture) for Apple Silicon Mac
    https://cdimage.ubuntu.com/releases/25.10/release/ubuntu-25.10-desktop-arm64.iso
 
 
