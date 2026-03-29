@@ -95,6 +95,8 @@ Open Terminal and run:
 sudo apt update && sudo apt upgrade -y && sudo apt install lubuntu-desktop sddm -y && echo "/usr/bin/sddm" | sudo tee /etc/X11/default-display-manager && sudo reboot
 ```
 
+Then, select SDDM as default manager.
+
 ✅ What this does
 - Installs Lubuntu (LXQt desktop)
 - Installs SDDM display manager
