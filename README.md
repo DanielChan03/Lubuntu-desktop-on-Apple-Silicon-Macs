@@ -193,6 +193,6 @@ sudo apt update && sudo apt install lxqt-core sddm -y && echo "/usr/bin/sddm" | 
 If you encounter any issues during installation or usage, feel free to reach out:
 
 - **Email:** 1231302741@student.mmu.edu.my  
-- **GitHub Issues:** [Submit an issue]([https://github.com/DanielChan03/Lubuntu-desktop-on-Apple-Silicon-Macs-/])
+- **GitHub Issues:** [Submit an issue](https://github.com/DanielChan03/Lubuntu-desktop-on-Apple-Silicon-Macs-/)
 
 We welcome feedback, bug reports, and suggestions to improve this guide.
