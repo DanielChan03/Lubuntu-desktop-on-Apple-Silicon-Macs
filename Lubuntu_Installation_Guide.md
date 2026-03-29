@@ -13,7 +13,7 @@ This guide walks you through:
 - Mac (Intel or Apple Silicon)
 - At least:
   - 4GB RAM (8GB recommended)
-  - 20GB storage
+  - 25GB storage
 - Internet connection
 
 ---
@@ -127,7 +127,7 @@ echo $XDG_CURRENT_DESKTOP
 
 Expected output:
 
-```bash
+```
 LXQt
 ```
 
@@ -135,12 +135,12 @@ LXQt
 
 # 🔒 Step 9: Set Lubuntu as Default
 
+Run:
+
 ```bash
 echo -e "[General]\nSession=Lubuntu" > ~/.dmrc
 chmod 644 ~/.dmrc
-```
 
-```bash
 cat ~/.dmrc
 ```
 
@@ -154,6 +154,8 @@ Session=Lubuntu
 
 ⚠️ Only after confirming Lubuntu works
 
+Run:
+
 ```bash
 sudo apt remove ubuntu-desktop gnome-shell -y
 sudo apt autoremove -y
@@ -162,6 +164,8 @@ sudo apt autoremove -y
 # ⚡ Optional: Ultra-Light Setup (Better Performance)
 
 Instead of full Lubuntu, install minimal LXQt:
+
+Run:
 
 ```bash
 sudo apt update && sudo apt install lxqt-core sddm -y && echo "/usr/bin/sddm" | sudo tee /et
