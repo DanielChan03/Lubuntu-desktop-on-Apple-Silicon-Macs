@@ -85,11 +85,11 @@ This guide walks you through:
 # 🔁 Step 5: First Boot Setup
 
 After installation:
-- Restart VM
+- Close VM
 - Remove ISO if prompted
   
 ![Figure](images/fig2.png)
-- Log into Ubuntu
+- Restart and Log into Ubuntu
   
 ![Figure](images/fig3.png)
 
