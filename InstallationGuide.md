@@ -94,6 +94,7 @@ Open Terminal and run:
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install lubuntu-desktop sddm -y && echo "/usr/bin/sddm" | sudo tee /etc/X11/default-display-manager && sudo reboot
+```
 
 ✅ What this does
 Installs Lubuntu (LXQt desktop)
