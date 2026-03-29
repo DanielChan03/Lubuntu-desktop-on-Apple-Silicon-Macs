@@ -87,9 +87,11 @@ This guide walks you through:
 After installation:
 - Restart VM
 - Remove ISO if prompted
-- Log into Ubuntu
   
 ![Figure](images/fig2.png)
+- Log into Ubuntu
+  
+![Figure](images/fig3.png)
 
 ---
 
@@ -120,7 +122,7 @@ After reboot:
 3. Select Lubuntu
 4. Log in
 
-![Figure](images/fig3.png)
+![Figure](images/fig4.png)
 
 ---
 
