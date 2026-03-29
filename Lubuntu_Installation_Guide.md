@@ -20,7 +20,7 @@ This guide walks you through:
 
 # 🚀 Step 1: Install UTM
 
-1. Download UTM from:
+1. Download UTM for free from:
    https://mac.getutm.app/
 2. Install and open UTM
 
