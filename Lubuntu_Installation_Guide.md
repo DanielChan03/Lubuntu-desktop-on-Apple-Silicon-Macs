@@ -140,6 +140,16 @@ echo -e "[General]\nSession=Lubuntu" > ~/.dmrc
 chmod 644 ~/.dmrc
 ```
 
+```bash
+cat ~/.dmrc
+```
+
+Output:
+```
+[General]
+Session=Lubuntu
+```
+
 # 🧹 Step 10: Remove Ubuntu Desktop (Optional)
 
 ⚠️ Only after confirming Lubuntu works
