@@ -178,7 +178,7 @@ Restart kernel:
 sudo reboot
 ```
 
-# ⚡ Optional: Ultra-Light Setup (Better Performance)
+## ⚡ Optional: Ultra-Light Setup (Better Performance)
 
 Instead of full Lubuntu, install minimal LXQt:
 
@@ -188,7 +188,7 @@ Run:
 sudo apt update && sudo apt install lxqt-core sddm -y && echo "/usr/bin/sddm" | sudo tee /et
 ```
 
-## Support / Contact
+# 📞 Support / Contact
 
 If you encounter any issues during installation or usage, feel free to reach out:
 
