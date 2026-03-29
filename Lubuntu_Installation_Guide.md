@@ -77,6 +77,7 @@ This guide walks you through:
 4. Wait for installation to complete
    
 ![Figure](images/fig1.png)
+
 ---
 
 # 🔁 Step 5: First Boot Setup
@@ -87,6 +88,7 @@ After installation:
 - Log into Ubuntu
   
 ![Figure](images/fig2.png)
+
 ---
 
 # 🚀 Step 6: Convert Ubuntu → Lubuntu
@@ -97,12 +99,12 @@ Open Terminal and run:
 sudo apt update && sudo apt upgrade -y && sudo apt install lubuntu-desktop sddm -y && echo "/usr/bin/sddm" | sudo tee /etc/X11/default-display-manager && sudo reboot
 ```
 
-Then, select SDDM as default manager.
+Then, select **SDDM** as default manager in the display.
 
 ✅ What this does
 - Installs Lubuntu (LXQt desktop)
 - Installs SDDM display manager
-- Sets SDDM as default
+- Sets **SDDM** as default
 - Reboots system
 
 ---
@@ -112,9 +114,11 @@ Then, select SDDM as default manager.
 After reboot:
 
 1. At login screen
-2. Click ⚙️ (settings icon)
+2. Click ⚙️ or Session
 3. Select Lubuntu
 4. Log in
+
+![Figure](images/fig3.png)
 
 ---
 
@@ -123,7 +127,8 @@ After reboot:
 Run:
 
 ```bash
-cat /etc/os-release
+sudo apt update
+
 echo $XDG_CURRENT_DESKTOP
 ```
 
@@ -146,13 +151,13 @@ chmod 644 ~/.dmrc
 cat ~/.dmrc
 ```
 
-Output:
+Expected Output:
 ```
 [General]
 Session=Lubuntu
 ```
 
-# 🧹 Step 10: Remove Ubuntu Desktop (Optional)
+# 🧹 Step 10: Remove Ubuntu Desktop (Optional but recommended)
 
 ⚠️ Only after confirming Lubuntu works
 
