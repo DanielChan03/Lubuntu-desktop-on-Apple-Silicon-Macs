@@ -55,7 +55,7 @@ This guide walks you through:
 
 ## ⚙️ Recommended Settings for VM
 
-- Memory: **2-4GB (2048-4096 MB)**
+- Memory: **2-4GB (2048-4096 MB)** (Modifiable)
 - CPU: **2–4 cores**
 - Storage: **20GB+**
 - Display/Interface : Use **VirtIO-GPU**
