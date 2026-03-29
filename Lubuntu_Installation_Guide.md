@@ -8,7 +8,7 @@ This guide walks you through:
 
 ---
 
-# 📌 Requirements
+# 📌 Device Requirements
 
 - Mac (Intel or Apple Silicon)
 - At least:
