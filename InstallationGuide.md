@@ -53,7 +53,7 @@ This guide walks you through:
 
 ---
 
-## ⚙️ Recommended Settings
+## ⚙️ Recommended Settings for VM
 
 - Memory: **2-4GB (2048-4096 MB)**
 - CPU: **2–4 cores**
