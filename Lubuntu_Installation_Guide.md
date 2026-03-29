@@ -75,7 +75,7 @@ This guide walks you through:
 - Create username/password
 
 4. Wait for installation to complete
-
+![Figure](images/fig2.png)
 ---
 
 # 🔁 Step 5: First Boot Setup
