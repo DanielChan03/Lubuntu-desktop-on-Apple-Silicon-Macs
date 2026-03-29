@@ -32,7 +32,7 @@ This guide walks you through:
    https://ubuntu.com/download/desktop
 2. Download the latest Ubuntu Desktop ISO  
    Example:
-   Ubuntu 25.10 (ARM 64-bit architecture)
+   Ubuntu 25.10 (ARM 64-bit architecture) for Apple Silicon Mac
    https://cdimage.ubuntu.com/releases/25.10/release/ubuntu-25.10-desktop-arm64.iso
 
 
@@ -55,7 +55,7 @@ This guide walks you through:
 
 ## ⚙️ Recommended Settings
 
-- Memory: **4GB (4096 MB)**
+- Memory: **2-4GB (2048-4096 MB)**
 - CPU: **2–4 cores**
 - Storage: **20GB+**
 - Display:
