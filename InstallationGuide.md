@@ -97,10 +97,10 @@ sudo apt update && sudo apt upgrade -y && sudo apt install lubuntu-desktop sddm 
 ```
 
 ✅ What this does
-Installs Lubuntu (LXQt desktop)
-Installs SDDM display manager
-Sets SDDM as default
-Reboots system
+- Installs Lubuntu (LXQt desktop)
+- Installs SDDM display manager
+- Sets SDDM as default
+- Reboots system
 
 ---
 
@@ -108,10 +108,10 @@ Reboots system
 
 After reboot:
 
-At login screen
-Click ⚙️ (settings icon)
-Select Lubuntu
-Log in
+1. At login screen
+2. Click ⚙️ (settings icon)
+3. Select Lubuntu
+4. Log in
 
 ---
 
@@ -119,26 +119,39 @@ Log in
 
 Run:
 
+```bash
 echo $XDG_CURRENT_DESKTOP
+```
 
 Expected output:
 
+```bash
 LXQt
+```
 
 ---
 
 # 🔒 Step 9: Set Lubuntu as Default
+
+```bash
 echo -e "[General]\nSession=Lubuntu" > ~/.dmrc
 chmod 644 ~/.dmrc
-🧹 Step 10: Remove Ubuntu Desktop (Optional)
+```
+
+# 🧹 Step 10: Remove Ubuntu Desktop (Optional)
 
 ⚠️ Only after confirming Lubuntu works
 
+```bash
 sudo apt remove ubuntu-desktop gnome-shell -y
 sudo apt autoremove -y
-⚡ Optional: Ultra-Light Setup (Better Performance)
+```
+
+# ⚡ Optional: Ultra-Light Setup (Better Performance)
 
 Instead of full Lubuntu, install minimal LXQt:
 
+```bash
 sudo apt update && sudo apt install lxqt-core sddm -y && echo "/usr/bin/sddm" | sudo tee /et
+```
   
