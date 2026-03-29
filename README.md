@@ -78,7 +78,7 @@ This guide walks you through:
 
 4. Wait for installation to complete
    
-![fig1](images/fig1.png)
+![Figure](images/fig1.png)
 
 ---
 
